@@ -48,7 +48,7 @@ boardService.writePost(postDTO);
 또한 반드시 인터페이스를 구현하지 않아도 됩니다. <br>
 이렇듯 성능 상 이점으로 인해 Spring Boot에서는 CGLib를 사용한 방식을 기본으로 채택하고 있습니다.<br>
 
-/// 디버깅 사
+<img width="928" alt="스크린샷 2023-04-28 오후 5 06 41" src="https://user-images.githubusercontent.com/80631952/235091594-3ba87faa-e69e-4319-83bb-e13d773a259d.png">
 RacingGameService를 디버깅 해보면 다른 객체가 injection 되어있다.
 
 @Transactional이 동작하는 RacingGameService.java
